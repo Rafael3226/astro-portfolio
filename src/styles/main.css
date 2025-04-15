@@ -2171,6 +2171,15 @@ input[type="radio"]+label:before {
 
 .image.thumb {
 	text-align: center;
+	height: 200px;
+	overflow: hidden;
+}
+
+.image.thumb img {
+	object-fit: cover;
+	object-position: top;
+	width: 100%;
+	height: 100%;
 }
 
 .image.thumb:after {

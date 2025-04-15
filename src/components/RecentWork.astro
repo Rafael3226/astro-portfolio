@@ -1,11 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-import full_1 from '../assets/fulls/01.jpg';
-import full_2 from '../assets/fulls/02.jpg';
-import full_3 from '../assets/fulls/03.jpg';
-import full_4 from '../assets/fulls/04.jpg';
-import full_5 from '../assets/fulls/05.jpg';
-import full_6 from '../assets/fulls/06.jpg';
 
 import th_1 from '../assets/thumbs/01.jpg';
 import th_2 from '../assets/thumbs/02.jpg';
@@ -20,37 +14,32 @@ import th_6 from '../assets/thumbs/06.jpg';
 	<h2>Recent Work</h2>
 	<div class="row">
 		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_1.src} class="image fit thumb"><Image src={th_1} alt="" /></a>
-			<h3>Magna sed consequat tempus</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+			<a href="https://www.dilagoingenieriasas.com/" class="image fit thumb" target="_blank" rel="noopener noreferrer"
+				><Image src={th_1} alt="Web Dilago Ingenieria S.A.S" /></a
+			>
+			<h3>Dilago Ingenieria S.A.S</h3>
+			<p>
+				Dilago Ingeniería was founded in 2015 in Barrancabermeja, initially with the goal of meeting local and regional demand for
+				technical training in the energy sector.
+			</p>
 		</article>
 		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_2.src} class="image fit thumb"><Image src={th_2} alt="" /></a>
-			<h3>Ultricies lacinia interdum</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+			<a href="https://autosviplatam.com/" class="image fit thumb" target="_blank" rel="noopener noreferrer"
+				><Image src={th_2} alt="Web Autos Vi Platam" /></a
+			>
+			<h3>Autos Vip latam S.A.S</h3>
+			<p>
+				Autos VIP is a distinguished company from Santander, dedicated to the automotive sector. Its core focus is the sale of premium,
+				high-end pre-owned vehicles, offering quality, reliability, and exceptional service.
+			</p>
 		</article>
 		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_3.src} class="image fit thumb"><Image src={th_3} alt="" /></a>
-			<h3>Tortor metus commodo</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_4.src} class="image fit thumb"><Image src={th_4} alt="" /></a>
-			<h3>Quam neque phasellus</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_5.src} class="image fit thumb"><Image src={th_5} alt="" /></a>
-			<h3>Nunc enim commodo aliquet</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href={full_6.src} class="image fit thumb"><Image src={th_6} alt="" /></a>
-			<h3>Risus ornare lacinia</h3>
-			<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+			<a href="{full_3.src}" class="image fit thumb" target="_blank" rel="noopener noreferrer"><Image src={th_3} alt="" /></a>
+			<h3>GU Consulting S.A.S</h3>
+			<p></p>
 		</article>
 	</div>
-	<ul class="actions">
-		<li><a href="#" class="button">Full Portfolio</a></li>
-	</ul>
+	<!-- <ul class="actions">
+		<li><a href="#" class="button" target="_blank" rel="noopener noreferrer">Full Portfolio</a></li>
+	</ul> -->
 </section>
