@@ -1,9 +1,15 @@
+---
+import { Image } from 'astro:assets';
+import centennialLogo from '../assets/experience/centennial_college_logo.jpeg';
+import upbLogo from '../assets/experience/universidad_pontificia_bolivariana_logo.jpeg';
+---
+
 <!-- Education -->
 <section id="education">
 	<h2>Education 📚</h2>
 	<div class="education-container">
 		<div class="education-item">
-			<img class="education-logo" src="/src/assets/experience/centennial_college_logo.jpeg" alt="Centennial College Logo" />
+			<Image class="education-logo" src={centennialLogo} alt="Centennial College Logo" />
 			<div class="education-content">
 				<div class="education-header">
 					<h3>Cybersecurity</h3>
@@ -14,11 +20,7 @@
 		</div>
 
 		<div class="education-item">
-			<img
-				class="education-logo"
-				src="/src/assets/experience/universidad_pontificia_bolivariana_logo.jpeg"
-				alt="Universidad Pontificia Bolivariana Logo"
-			/>
+			<Image class="education-logo" src={upbLogo} alt="Universidad Pontificia Bolivariana Logo" />
 			<div class="education-content">
 				<div class="education-header">
 					<h3>Software Engineering</h3>
